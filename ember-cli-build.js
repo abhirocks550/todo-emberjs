@@ -20,5 +20,11 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  app.import('bower_components/bootstrap/dist/css/bootstrap.min.css');
+  app.import('bower_components/moment/min/moment.min.js');
+  app.import('bower_components/showdown/dist/showdown.min.js');
+
+
+
   return app.toTree();
 };
